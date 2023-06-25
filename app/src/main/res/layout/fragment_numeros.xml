@@ -22,7 +22,7 @@
         app:layout_constraintGuide_percent="0.87" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/buttonOne"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="32dp"
@@ -32,55 +32,55 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/buttonTwo"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="32dp"
         android:background="@android:color/transparent"
         android:src="@drawable/dois"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton7"
+        app:layout_constraintStart_toEndOf="@+id/buttonOne"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/buttonThree"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="24dp"
         android:background="@android:color/transparent"
         android:src="@drawable/tres"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonOne" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/buttonFour"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="24dp"
         android:background="@android:color/transparent"
         android:src="@drawable/quatro"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton9"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+        app:layout_constraintStart_toEndOf="@+id/buttonThree"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTwo" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/buttonFive"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="24dp"
         android:background="@android:color/transparent"
         android:src="@drawable/cinco"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonThree" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/buttonSix"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="24dp"
         android:background="@android:color/transparent"
         android:src="@drawable/seis"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton11"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+        app:layout_constraintStart_toEndOf="@+id/buttonFive"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFour" />
 </androidx.constraintlayout.widget.ConstraintLayout>
